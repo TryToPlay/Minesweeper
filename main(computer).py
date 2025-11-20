@@ -8,6 +8,7 @@ import os
 # Configs
 
 pygame.init()
+pygame.mixer.init()
 window = pygame.display.set_mode((window_width, window_height))
 pygame.display.set_caption("Minesweeper")
 clock = pygame.time.Clock()

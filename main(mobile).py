@@ -8,6 +8,7 @@ import os
 # Configs
 
 pygame.init()
+pygame.mixer.init()
 pygame.display.set_caption("Minesweeper")
 clock = pygame.time.Clock()
 sys.setrecursionlimit(10000)
